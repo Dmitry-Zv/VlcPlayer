@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>952</width>
+    <width>1292</width>
     <height>652</height>
    </rect>
   </property>
@@ -19,26 +19,26 @@
      <rect>
       <x>20</x>
       <y>30</y>
-      <width>461</width>
-      <height>391</height>
+      <width>600</width>
+      <height>400</height>
      </rect>
     </property>
    </widget>
    <widget class="VlcWidgetVideo" name="widget_2" native="true">
     <property name="geometry">
      <rect>
-      <x>520</x>
+      <x>750</x>
       <y>30</y>
-      <width>391</width>
-      <height>271</height>
+      <width>450</width>
+      <height>300</height>
      </rect>
     </property>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>430</y>
+      <x>460</x>
+      <y>436</y>
       <width>81</width>
       <height>16</height>
      </rect>
@@ -55,7 +55,7 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>330</x>
+      <x>720</x>
       <y>430</y>
       <width>91</width>
       <height>16</height>
@@ -70,85 +70,105 @@
      <string>Поток 2</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>470</y>
-      <width>95</width>
-      <height>20</height>
+      <x>450</x>
+      <y>460</y>
+      <width>96</width>
+      <height>101</height>
      </rect>
     </property>
-    <property name="font">
-     <font>
-      <pointsize>12</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Камера 1</string>
-    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QRadioButton" name="radioButton">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Камера 1</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_2">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Камера 2</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </widget>
-   <widget class="QRadioButton" name="radioButton_2">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>520</y>
-      <width>95</width>
-      <height>20</height>
+      <x>710</x>
+      <y>460</y>
+      <width>96</width>
+      <height>101</height>
      </rect>
     </property>
-    <property name="font">
-     <font>
-      <pointsize>12</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Камера 2</string>
-    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QRadioButton" name="radioButton_3">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Камера 1</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_4">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Камера 2</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </widget>
-   <widget class="QRadioButton" name="radioButton_3">
+   <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>470</y>
-      <width>95</width>
-      <height>20</height>
+      <x>200</x>
+      <y>500</y>
+      <width>93</width>
+      <height>28</height>
      </rect>
     </property>
-    <property name="font">
-     <font>
-      <pointsize>12</pointsize>
-     </font>
-    </property>
     <property name="text">
-     <string>Камера 1</string>
+     <string>Старт</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton_4">
-    <property name="geometry">
-     <rect>
-      <x>320</x>
-      <y>520</y>
-      <width>95</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>12</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Камера 2</string>
-    </property>
-   </widget>
+   <zorder>layoutWidget</zorder>
+   <zorder>layoutWidget</zorder>
+   <zorder>widget</zorder>
+   <zorder>widget_2</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>pushButton</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>952</width>
+     <width>1292</width>
      <height>21</height>
     </rect>
    </property>

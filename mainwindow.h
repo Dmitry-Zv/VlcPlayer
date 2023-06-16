@@ -28,6 +28,16 @@ private slots:
 
     void on_radioButton_4_clicked(bool checked);
 
+    void reconnect();
+
+    void reconnect2();
+
+
+
+
+
+    void on_pushButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 
@@ -35,8 +45,12 @@ private:
     VlcInstance* instance2;
     VlcMedia *media;
     VlcMedia *media2;
+    VlcMedia *mediaPlayer;
+    VlcMedia *mediaPlayer2;
     VlcMediaPlayer *player;
     VlcMediaPlayer *player2;
+    QString urlPlayer;
+    QString urlPlayer2;
 };
 
 #endif // MAINWINDOW_H
